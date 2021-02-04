@@ -3,10 +3,10 @@ class Dog
   @@all = []
  
  #new instances of a dog are called 
-  # def initialize(name)
-  #   @name = name
-  #   @@all << self 
-  # end
+  def initialize(name)
+    @name = name
+    @@all << self 
+  end
 
 #class method that returns all dog instances
   def self.all
