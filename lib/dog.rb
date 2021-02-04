@@ -5,7 +5,7 @@ class Dog
  #new instances of a dog are called 
   def initialize(name)
     @name = name
-    @@all << self 
+    # @@all << self 
     save
   end
 
