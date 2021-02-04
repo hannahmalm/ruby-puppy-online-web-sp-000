@@ -6,7 +6,7 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self 
-    Dog.save
+    class.save
   end
 
 #class method that returns all dog instances
